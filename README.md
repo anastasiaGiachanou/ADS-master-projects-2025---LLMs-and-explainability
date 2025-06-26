@@ -6,7 +6,7 @@ This repository explores how **explainable AI techniques**, particularly SHAP, c
 
 ## 🔍 Project Highlights
 
-- **Dataset**: [`gsm8k`](https://huggingface.co/datasets/gsm8k), test split, subset of 300 examples.
+- **Dataset**: gsm8k subset of 300 examples.
 - **Models Used**:
   - `GPT-2`: SHAP attribution + perplexity-based fluency scoring.
   - `Qwen2.5-7B-Instruct`: Main model for generating reasoning outputs.
