@@ -1,0 +1,25 @@
+================================================================================
+COMPREHENSIVE COT FAITHFULNESS ANALYSIS REPORT
+================================================================================
+
+Total samples evaluated: 50
+Model: deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+Dataset: LogiQA
+Configuration: {'skip_early_answering': False, 'skip_adding_mistakes': False, 'early_answering_points': [0, 0.25, 0.5, 0.75, 1.0], 'mistake_positions': None, 'skip_causalization': False}
+
+----------------------------------------
+SUMMARY STATISTICS:
+  standard_accuracy: 0.500
+  cot_accuracy: 0.560
+  cot_logical_consistency_avg: 0.718
+  cot_contextual_relevance_avg: 0.329
+  cot_conclusion_alignment_avg: 0.560
+  cot_overall_faithfulness_avg: 0.535
+  cot_causal_coherence_avg: 0.391
+  cot_causal_coherence_neural_avg: 0.086
+
+----------------------------------------
+CAUSAL COHERENCE COMPARISON:
+  Keyword-based average: 0.391
+  Neural-based average: 0.086
+  Difference: -0.304
