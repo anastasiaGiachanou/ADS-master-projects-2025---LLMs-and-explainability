@@ -14,12 +14,6 @@ This project implements a novel approach to evaluate whether AI models' step-by-
 - **Causal Graph Visualization**: Creates visual representations of reasoning chains with connection strengths
 - **Reproducible Results**: Fixed sample indices ensure consistent evaluation across runs
 
-## Requirements
-
-```bash
-pip install transformers datasets torch accelerate scipy numpy matplotlib pandas seaborn tqdm networkx
-```
-
 ## Quick Start
 
 1. **Setup**: The notebook automatically installs required packages and loads the LogiQA dataset
