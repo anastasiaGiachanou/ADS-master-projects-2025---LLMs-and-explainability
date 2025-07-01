@@ -150,19 +150,6 @@ CUSTOM_CONFIG = {
 - **Storage**: Results and graphs can consume several GB of disk space
 
 
-## Citation
-
-If you use this framework in your research, please cite:
-
-```bibtex
-@mastersthesis{brouwer2025measuring,
-  title={Measuring the Gap Between Words and Logic: Neural Entailment Analysis of Chain-of-Thought Reasoning},
-  author={Brouwer, Hein F.},
-  school={Utrecht University},
-  year={2025}
-}
-```
-
 ## Related Work
 
 This work builds upon several key papers in the field:
